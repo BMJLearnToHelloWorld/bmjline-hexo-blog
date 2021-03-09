@@ -79,8 +79,8 @@ theme: polarbear
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: https://github.com/BMJLearnToHelloWorld/BMJLearnToHelloWorld.github.io.git
-  repo: https://gitee.com/bmj1012/bmj1012.git
+  repo: https://github.com/BMJLearnToHelloWorld/BMJLearnToHelloWorld.github.io.git
+  # repo: https://gitee.com/bmj1012/bmj1012.git
   branch: master
 
 # RSS
