@@ -1,0 +1,13 @@
+<svg width="498" height="101" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>BMJLINE</title>
+  <text filter="url(#svg_3_blur)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="110" id="svg_1" y="97.1667" x="4.5" stroke-width="8" stroke="#aaffff" fill="#aaffff">BMJLINE</text>
+  <text filter="url(#svg_3_blur)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="110" id="svg_3" y="87.1667" x="-5.5" stroke-width="8" stroke="#00bfbf" fill="#00bfbf">BMJLINE</text>
+ </g>
+</svg>
