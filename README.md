@@ -4,7 +4,7 @@
 
 这是一篇搭建博客时自动生成的文章，我并不打算删除它，因为它见证了**BMJLINE**的启动！
 
-**[BMJLINE](www.bmjline.com)**的搭建离不开[Hexo](https://hexo.io)
+**[BMJLINE](www.bmjline.com)** 的搭建离不开[Hexo](https://hexo.io)
 
 之所以我会选择Hexo来搭建而不是自己写一个博客，主要是因为我更想把重点放在写博客上，而并非搭建博客上。
 
