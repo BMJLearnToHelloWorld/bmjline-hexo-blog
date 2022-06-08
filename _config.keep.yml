@@ -1,0 +1,177 @@
+# keep theme config
+
+# 请在该配置项里正确填写你网站的基本信息。
+base_info:
+  title: BMJLINE BLOG
+  author: bmj
+  url: https://blog.bmjline.com
+
+# 该配置项用于配置网站的基本样式。
+style:
+  # Theme primary color
+  primary_color: "#0066CC"
+
+  # Avatar (You can use local image or image external link)
+  avatar: /images/logo.svg
+
+  # Favicon (You can use local image or image external link)
+  favicon: /images/favicon.ico
+
+  # Article image align position, value: left | center
+  article_img_align: left
+
+  # Left side width
+  left_side_width: 260px
+
+  # Content area max width
+  content_max_width: 920px
+
+  # Mouse hover
+  hover:
+    shadow: true # shadow effect when the mouse hover
+    scale: false # scale effect when the mouse hover
+
+  # First screen
+  first_screen:
+    enable: true
+    background_img: /images/bg.svg # You can use local image or image external link
+    description: BMJ LEARN TO HELLO WORLD
+
+  # Scroll style settings
+  scroll:
+    progress_bar:
+      enable: true
+    percent:
+      enable: true
+
+# 设置第三方社交链接。
+social_contact:
+  enable: true
+  links:
+    github:               # your GitHub URL
+    weixin:               # your WeChat QR-Code URL
+    qq:                   # your QQ QR-Code URL
+    weibo:                # your WeiBo URL
+    zhihu:                # your ZhiHu URL
+    twitter:              # your twitter URL
+    facebook:             # your facebook URL
+    email:                # your email
+
+# 网站头部导航菜单，如需新增导航菜单，按上面格式填写，同时需要创建相对应的 Hexo 页面。
+menu:
+  Home: /
+  Archives: /archives
+  # Categories: /categories
+  # Tags: /tags
+  # Links: /links
+  About: /about
+
+# 该配置项用于设置首页文章块底部的标签和分类信息显示。
+home_article:
+  category:
+    enable: true     # show category in home page article block
+    limit: 3          # max number of categories shown in home page article block
+  tag:
+    enable: true     # show tags in home page article block
+    limit: 5          # max number of tags shown in home page article block
+
+# 该配置项用于设置是否显示文章字数统计、阅读时长和作者标识。
+post:
+  # Post word count
+  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
+  # See: https://github.com/willin/hexo-wordcount
+  word_count:
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
+
+  # Author label
+  author_label:
+    enable: false
+    auto: false  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # label array item can be one or more
+    custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
+
+# 该配置项用于设置代码复制功能，开启后可一键复制代码到剪贴板。
+code_copy:
+  enable: true
+  style: default        # values: default | mac
+
+# 该配置项用于设置文章TOC目录结构，非常实用的功能，可以快速查看文章目录结构和跳转，建议开启。
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: false
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: false
+
+  # If true, open TOC every time when you enter the article page
+  init_open: false
+
+# 该配置项用于开启文章内容页的文章版权信息模块。
+copyright_info:
+  enable: false
+
+# 该配置项用于设置网站计数，Keep 主题内置不蒜子计数，无需额外配置，直接选择你要开启的计数项即可。
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: false
+    site_uv: true
+    site_pv: true
+    page_pv: true
+
+# 该配置项用于设置网站搜索功能，非常实用，建议开启。开启后，头部导航栏右侧将出现搜索按钮。
+local_search:
+  enable: true
+  preload: false     # Preload the search data when the page loads
+
+# 该配置项用于开启和设置主题的评论系统。
+comment:
+  enable: false
+  use: valine  # values: valine | gitalk | twikoo
+
+  # Valine
+  # See: https://github.com/xCss/Valine
+  valine:
+    appid:                # your leancloud application appid
+    appkey:               # your leancloud application appkey
+    placeholder:          # your placeholder
+
+  # Gitalk
+  # See: https://github.com/gitalk/gitalk
+  gitalk:
+    github_id:             # GitHub repo owner
+    repository:            # Repository name to store issues
+    client_id:             # GitHub Application Client ID
+    client_secret:         # GitHub Application Client Secret
+
+  # Twikoo
+  # See: https://github.com/imaegoo/twikoo
+  twikoo:
+    env_id:                # Tencent Cloud environment id
+    region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
+
+# RSS
+rss:
+  enable: true
+
+# 该配置项用于开启图片懒加载。
+lazyload:
+  enable: true
+
+# 该配置项用于开启部分主题资源（JS 文件、字体文件等）的 CDN 加速功能。
+cdn:
+  enable: false
+
+# 该配置项用于开启主题的 PJAX 功能，带来单页应用的体验。
+pjax:
+  enable: true
+
+# 该配置项用于设置网站底部的信息展示。
+footer:
+  since: 2018      # the starting year of your website, Can be null
+  icp:             # ICP record number of your website, Can be null
