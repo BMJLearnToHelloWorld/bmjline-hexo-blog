@@ -8,7 +8,7 @@ tags:
 - git
 - hexo
 categories: 
-- technology
+- Technology
 ---
 
 ## 概要
@@ -340,8 +340,4 @@ hexo deploy
 
 ----------
 
-谢谢你愿意看到最后，我们下一篇博客见。。。
-
-
-![TO BE CONTINUED...](https://storage.bmjline.com/blog/tobecontinuedjojo.png)
-<br/>
+谢谢你愿意看到最后。

@@ -7,7 +7,7 @@ tags:
   - notes
   - summary
 categories:
-  - technology
+  - Technology
   - machinelearning
 ---
 

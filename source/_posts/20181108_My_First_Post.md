@@ -29,11 +29,3 @@ tags:
 
 在未来的时间里，我还会不断地完善自己的博客，与你一起分享生活和学习。。。
 <br/>
-
-### 就是这样
-
-----------
-
-
-![TO BE CONTINUED...](https://storage.bmjline.com/blog/tobecontinuedjojo.png)
-<br/>
