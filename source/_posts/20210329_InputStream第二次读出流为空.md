@@ -5,7 +5,7 @@ date: 2021-03-29 22:54:11
 tags:
 - Java
 categories: 
-- technology
+- Technology
 ---
 
 ## 起因
