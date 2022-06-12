@@ -48,14 +48,14 @@ style:
 social_contact:
   enable: true
   links:
-    github:               # your GitHub URL
+    github: https://github.com/BMJLearnToHelloWorld              # your GitHub URL
     weixin:               # your WeChat QR-Code URL
     qq:                   # your QQ QR-Code URL
     weibo:                # your WeiBo URL
     zhihu:                # your ZhiHu URL
     twitter:              # your twitter URL
     facebook:             # your facebook URL
-    email:                # your email
+    email: BernieMJ1012@gmail.com               # your email
 
 # 网站头部导航菜单，如需新增导航菜单，按上面格式填写，同时需要创建相对应的 Hexo 页面。
 menu:
