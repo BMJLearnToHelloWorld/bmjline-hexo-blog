@@ -36,6 +36,9 @@ style:
     enable: true
     background_img: /images/bg.svg # You can use local image or image external link
     description: BMJ LEARN TO HELLO WORLD
+    # If enable hitokoto, first screen description is different every time when you enter the site
+    hitokoto:
+      enable: false
 
   # Scroll style settings
   scroll:
