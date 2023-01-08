@@ -711,11 +711,6 @@ hexo-theme-keep@^3.5.2:
   resolved "https://registry.npmjs.org/hexo-theme-keep/-/hexo-theme-keep-3.5.2.tgz"
   integrity sha512-Z8/9KbLVLUcYlXkIjvYuGn5y9z1VGC2Wut/obYf3cmNfc4ULC7H4NzH39kKxgOUVp8j+dIqECOhLz33ODyalGw==
 
-hexo-theme-landscape@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
-  integrity sha512-b0Di+TUVs4ESrNX4ULEh9uQmADpO6kr10rIJ2OGZM8suNQNFKdxn+vJUjnLfKkCPJAfVmS7/S83KCNYe4tpoNw==
-
 hexo-util@^2.0.0, hexo-util@^2.1.0:
   version "2.6.1"
   resolved "https://registry.npmmirror.com/hexo-util/-/hexo-util-2.6.1.tgz"

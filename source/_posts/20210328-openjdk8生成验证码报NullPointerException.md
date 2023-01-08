@@ -34,4 +34,4 @@ openjdk缺少了字体库，这需要在生成base64图片时需要，所以报�
 ***
 
 ## 参考
-[https://blog.csdn.net/weixin_39025362/article/details/106099249](https://blog.csdn.net/weixin_39025362/article/details/106099249)
+[docker中OpenJDK验证码无法显示 java.lang.NullPointerException at sun.awt.FontConfiguration.getVersion](https://blog.csdn.net/weixin_39025362/article/details/106099249)
