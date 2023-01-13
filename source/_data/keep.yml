@@ -4,12 +4,15 @@
 base_info:
   title: BMJLINE BLOG
   author: bmj
-  url: https://blog.bmjline.com
 
 # 该配置项用于配置网站的基本样式。
 style:
   # Theme primary color
   primary_color: "#0066CC"
+
+  # Your blog website logo image
+  # You can use local image, image external link or don't fill
+  logo: /images/logo.png
 
   # Avatar (You can use local image or image external link)
   avatar: /images/logo.svg
@@ -17,28 +20,28 @@ style:
   # Favicon (You can use local image or image external link)
   favicon: /images/favicon.ico
 
-  # Article image align position, value: left | center
-  article_img_align: left
+  # Font size, customize font size. (you don't usually have to fill)
+  # e.g. font_size: 18px
+  font_size:
 
-  # Left side width
-  left_side_width: 260px
-
-  # Content area max width
-  content_max_width: 920px
+  # Font family, customize font family. (you don't usually have to fill)
+  # e.g. font_family: STKaiti, STSong, STHeiti
+  font_family:
 
   # Mouse hover
   hover:
-    shadow: true # shadow effect when the mouse hover
-    scale: false # scale effect when the mouse hover
+    shadow: true
+    scale: false
 
   # First screen
   first_screen:
     enable: true
-    background_img: /images/bg.svg # You can use local image or image external link
+    header_transparent: true
+    background_img: /images/bg.svg
     description: BMJ LEARN TO HELLO WORLD
+    font_color:
     # If enable hitokoto, first screen description is different every time when you enter the site
-    hitokoto:
-      enable: false
+    hitokoto: false
 
   # Scroll style settings
   scroll:
@@ -51,14 +54,14 @@ style:
 social_contact:
   enable: true
   links:
-    github: https://github.com/BMJLearnToHelloWorld              # your GitHub URL
+    github: https://github.com/BMJLearnToHelloWorld
     weixin:               # your WeChat QR-Code URL
     qq:                   # your QQ QR-Code URL
     weibo:                # your WeiBo URL
     zhihu:                # your ZhiHu URL
     twitter:              # your twitter URL
     facebook:             # your facebook URL
-    email: BernieMJ1012@gmail.com               # your email
+    email: BernieMJ1012@gmail.com
 
 # 网站头部导航菜单，如需新增导航菜单，按上面格式填写，同时需要创建相对应的 Hexo 页面。
 menu:
@@ -72,11 +75,11 @@ menu:
 # 该配置项用于设置首页文章块底部的标签和分类信息显示。
 home_article:
   category:
-    enable: true     # show category in home page article block
-    limit: 3          # max number of categories shown in home page article block
+    enable: true
+    limit: 3
   tag:
-    enable: true     # show tags in home page article block
-    limit: 5          # max number of tags shown in home page article block
+    enable: true
+    limit: 5
 
 # 该配置项用于设置是否显示文章字数统计、阅读时长和作者标识。
 post:
@@ -85,44 +88,57 @@ post:
   # See: https://github.com/willin/hexo-wordcount
   word_count:
     enable: true
-    wordcount: true  # word count, one article
-    min2read: true   # time to read, one article
+    wordcount: true
+    min2read: true
 
   # Author label
   author_label:
     enable: false
-    auto: false  # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    # if true, show Lv1, Lv2, Lv3... , If false, show custom label
+    auto: false
     # label array item can be one or more
     custom_label_list: [ "Trainee", "Engineer", "Architect", "CTO", "BOSS" ]
+  
+  # Image align position in the post
+  # Option values: left | center
+  img_align: left
 
-# 该配置项用于设置代码复制功能，开启后可一键复制代码到剪贴板。
-code_copy:
-  enable: true
-  style: default        # values: default | mac
+  # Post copyright info
+  # Option values: true | false
+  copyright_info: false
+
+# ---------------------------------------------------------------------------------------
+# Code block
+# Docs: https://keep-docs.xpoet.cn/tutorial/configuration-guide/code_block.html
+# ---------------------------------------------------------------------------------------
+code_block:
+  # Toolbar include: "code copy", "code block collapse" and "code language"
+  tools:
+    enable: true
+    # Option values: default | mac
+    style: default
+  # Option values: default | obsidian
+  highlight_theme: default
 
 # 该配置项用于设置文章TOC目录结构，非常实用的功能，可以快速查看文章目录结构和跳转，建议开启。
 toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
-
-# 该配置项用于开启文章内容页的文章版权信息模块。
-copyright_info:
-  enable: false
+  init_open: true
 
 # 该配置项用于设置网站计数，Keep 主题内置不蒜子计数，无需额外配置，直接选择你要开启的计数项即可。
 website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false
+    enable: true
     site_uv: true
     site_pv: true
     page_pv: true
@@ -130,33 +146,48 @@ website_count:
 # 该配置项用于设置网站搜索功能，非常实用，建议开启。开启后，头部导航栏右侧将出现搜索按钮。
 local_search:
   enable: true
-  preload: false     # Preload the search data when the page loads
+  preload: true
 
 # 该配置项用于开启和设置主题的评论系统。
 comment:
-  enable: false
-  use: valine  # values: valine | gitalk | twikoo
+  enable: true
+  # values: valine | gitalk | twikoo
+  use: valine
 
   # Valine
   # See: https://github.com/xCss/Valine
   valine:
-    appid:                # your leancloud application appid
-    appkey:               # your leancloud application appkey
-    placeholder:          # your placeholder
+    appid: AerNigyao3dLBlJ6OquYJda1-gzGzoHsz
+    appkey: S1i64L1VjTfTfb6SgQvgALBu
+    server_urls: https://aernigya.lc-cn-n1-shared.com
+    placeholder: Hey, Good to see you...
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
+  #      https://gitalk.github.io
   gitalk:
-    github_id:             # GitHub repo owner
-    repository:            # Repository name to store issues
-    client_id:             # GitHub Application Client ID
-    client_secret:         # GitHub Application Client Secret
+    github_id:        # GitHub repo owner
+    github_admins:    # GitHub Admins (in Array type), optional
+    repository:       # Repository name to store issues
+    client_id:        # GitHub Application Client ID
+    client_secret:    # GitHub Application Client Secret
+    proxy:            # GitHub oauth request reverse proxy for CORS
 
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
+  #      https://twikoo.js.org
   twikoo:
-    env_id:                # Tencent Cloud environment id
-    region:                # environment region. If select Guangzhou, fill in "ap-guangzhou".
+    env_id:         # Tencent Cloud environment id
+    region:         # Environment region. If select Guangzhou, fill in "ap-guangzhou"
+    version: 1.6.8  # Twikoo version, default use v1.6.8
+
+  # Waline
+  # See: https://github.com/walinejs/waline
+  #      https://waline.js.org/guide/get-started.html
+  waline:
+    server_url:     # Server URL
+    reaction: false # Article reactions, Option values: true | false
+    version: 2      # Waline version, default use v2
 
 # RSS
 rss:
@@ -168,7 +199,9 @@ lazyload:
 
 # 该配置项用于开启部分主题资源（JS 文件、字体文件等）的 CDN 加速功能。
 cdn:
-  enable: false
+  enable: true
+  # Option values: jsdelivr | unpkg
+  provider: jsdelivr
 
 # 该配置项用于开启主题的 PJAX 功能，带来单页应用的体验。
 pjax:
@@ -176,5 +209,9 @@ pjax:
 
 # 该配置项用于设置网站底部的信息展示。
 footer:
-  since: 2018      # the starting year of your website, Can be null
+  since: 2018
   icp:             # ICP record number of your website, Can be null
+  site_deploy:
+    enable: false       # Option values: true | false
+    provider: aws       # Option values: github | vercel | netlify | gitee | aliyun | tencent_cloud | upyun
+    url:                # Your deployment provider url, Can be null

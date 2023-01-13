@@ -161,7 +161,7 @@ server {
 
 我想只让某个用户有操作blog的权限，这样做感觉会更加安全，那么我们就用到了之前创建好的**git用户**。
 
-首先将之前为了blog所创建的文件夹和git仓库的拥有者做一下修改（目前因为是用sudo创建的，所有拥有者为root）：
+首先将之前为了blog所创建的文件夹和git仓库的拥有者做一下修改（目前因为是用sudo创建的，所以拥有者为root）：
 <pre>
 cd /usr/local/hexo/repo/
 sudo chown -R git:git blog.git
