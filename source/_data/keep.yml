@@ -157,9 +157,9 @@ comment:
   # Valine
   # See: https://github.com/xCss/Valine
   valine:
-    appid: AerNigyao3dLBlJ6OquYJda1-gzGzoHsz
-    appkey: S1i64L1VjTfTfb6SgQvgALBu
-    server_urls: https://aernigya.lc-cn-n1-shared.com
+    appid: ectlwndaySaNdKRvzD3ez9Iv-9Nh9j0Va
+    appkey: 2leuHjewg2D3fKsMjDla8Lp9
+    server_urls: https://ectlwnda.lc-cn-e1-shared.com
     placeholder: Hey, Good to see you...
 
   # Gitalk
