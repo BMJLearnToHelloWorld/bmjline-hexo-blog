@@ -710,10 +710,10 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-marked@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.2.0.tgz#8ac3ad71df5086046b6356773f27e0b11b9849f7"
-  integrity sha512-/TwgQCAmqYIyxONzrgqokw0n8rU6W/lCtgbjhWcMoZxhwTaQCYpzaO0+sdu+PKXf9BL4910pg+xAbeFaqqIIrA==
+hexo-renderer-marked@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.3.0.tgz#be8680ecad9633964a0c26a5f99859247d996aca"
+  integrity sha512-V/ATcJ+tZHkTJSbScPzzHKmrwVMohU8i9MfuX9jp07Un/NpPtaTP821unP3JPu+O1nNLWMi+3xRbFRdm+8vajw==
   dependencies:
     dompurify "^3.0.3"
     hexo-util "^3.1.0"
@@ -742,10 +742,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-keep@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.0.6.tgz#82f008c65ae5e6104f420fbffc80f4713c8af688"
-  integrity sha512-2mTNwzl1YPUsCYMbehhQd/U769WcBi/pd+Cf4+3vT7AHk7JjFujLmZXh9c15OboU7TCBgUioD4EzDAwiImTFcQ==
+hexo-theme-keep@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.1.1.tgz#8d94cf225296910ab3c47c8d46eda29974e8bef9"
+  integrity sha512-rj9cWYb2zWcs82kTqQjERLe8ETN0KRz+T4Kxd/Ul2DfGcs/E5TFOz42fPq4ksTkuAoZ/4xSBGE/EPR7vfQnIAw==
 
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.7.0:
   version "2.7.0"
@@ -779,10 +779,10 @@ hexo-wordcount@^6.0.1:
   resolved "https://registry.npmmirror.com/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
   integrity sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==
 
-hexo@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-7.0.0.tgz#3e1fb70373478668ba7e091737052e436a44b263"
-  integrity sha512-3iRSYReDcYd+bdCrDYS53aFjR717M+eSwKVXdM1tF2QETi8urcwDdDDoD7Nm2E0trqN4oeoHJ7FoXbn2UsZxqw==
+hexo@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-7.1.1.tgz#1686deb4ccfeeda950270e09292c26888538cf67"
+  integrity sha512-u6aJXG1npYkZJLl7QEOeTdm9hOwxfsLmFp4qAQVF0OAuNaikrKORjgNsjPmrWwI/tIObwjVJnEUJnV7S+NnUlw==
   dependencies:
     abbrev "^2.0.0"
     archy "^1.0.0"
