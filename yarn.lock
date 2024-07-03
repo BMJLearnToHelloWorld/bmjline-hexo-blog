@@ -710,7 +710,7 @@ hexo-renderer-ejs@^2.0.0:
   dependencies:
     ejs "^3.1.6"
 
-hexo-renderer-marked@^6.3.0:
+hexo-renderer-marked@^6.2.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-6.3.0.tgz#be8680ecad9633964a0c26a5f99859247d996aca"
   integrity sha512-V/ATcJ+tZHkTJSbScPzzHKmrwVMohU8i9MfuX9jp07Un/NpPtaTP821unP3JPu+O1nNLWMi+3xRbFRdm+8vajw==
@@ -742,10 +742,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-keep@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.1.1.tgz#8d94cf225296910ab3c47c8d46eda29974e8bef9"
-  integrity sha512-rj9cWYb2zWcs82kTqQjERLe8ETN0KRz+T4Kxd/Ul2DfGcs/E5TFOz42fPq4ksTkuAoZ/4xSBGE/EPR7vfQnIAw==
+hexo-theme-keep@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.1.4.tgz#2ede2a736611ee6e4f3c442998a284f8e3351dc1"
+  integrity sha512-/LPxaFUOUZAeT2N18x/hGurVkJb7UyVsLYZxV/lNa98fXKMlxYVuuKjNZ7pYuTvG3NjQSR5RJABg7sFtMHoGdw==
 
 hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.7.0:
   version "2.7.0"
