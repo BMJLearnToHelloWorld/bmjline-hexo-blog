@@ -715,10 +715,10 @@ hexo-server@^3.0.0:
     picocolors "^1.0.0"
     serve-static "^1.14.1"
 
-hexo-theme-keep@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.1.1.tgz#8d94cf225296910ab3c47c8d46eda29974e8bef9"
-  integrity sha512-rj9cWYb2zWcs82kTqQjERLe8ETN0KRz+T4Kxd/Ul2DfGcs/E5TFOz42fPq4ksTkuAoZ/4xSBGE/EPR7vfQnIAw==
+hexo-theme-keep@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-theme-keep/-/hexo-theme-keep-4.2.0.tgz#c10ac468a14a9063f7c834fc77717ee6b4360c84"
+  integrity sha512-dDKlTTto8+mZECf80FKZVDfdTOebII0RNVyow+KOledf6/1S5qJA42sZJX9ShZknMySonjwIxe9J3mdMtFTUGQ==
 
 hexo-util@^2.1.0:
   version "2.7.0"
